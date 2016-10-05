@@ -59,9 +59,10 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
 #scheme: Pisces
+scheme: Geek5
 
 
 # ---------------------------------------------------------------
@@ -193,8 +194,8 @@ sidebar:
 #   enabled: [true/false] - Replace with specific image
 #   image: url-of-image   - Images's url
 custom_logo:
-  enabled: false
-  image:
+  enabled: true
+  image: http://www.geek5.cn/wp-content/uploads/2016/08/geek5.png
 
 
 # Code Highlight theme
