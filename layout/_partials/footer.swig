@@ -13,8 +13,9 @@
 </div>
 
 <div class="theme-info">
+  {% set theme_link = date(Date.now(), "YYYY") %}
   {{ __('footer.theme') }} -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+  <a class="theme-link" {% if theme.scheme==='Geek5' %} href="https://github.com/calcyu/hexo-theme-next" {% else %} href="https://github.com/iissnan/hexo-theme-next" {% endif %}>
     NexT.{{ theme.scheme }}
   </a>
 </div>
